@@ -19,10 +19,10 @@ scenario-forge designs the exercise, this skill builds and checks it.
 
 ```sh
 cd ~
-git clone https://github.com/mqusaeri/create-chall-lab
+git clone https://github.com/mqusaeri/probset-skills
 mkdir -p <skill folder>
-cp -r ~/create-chall-lab <skill folder>/
-bash ~/create-chall-lab/cek.sh
+cp -r ~/probset-skills/create-chall-lab <skill folder>/
+bash ~/probset-skills/create-chall-lab/cek.sh
 ```
 
 | Harness | Skill folder | Start |
@@ -47,8 +47,8 @@ Tell the agent the format, the source idea and the difficulty, for example:
 Then check the folder it made:
 
 ```sh
-bash ~/create-chall-lab/cek-soal.sh <slug>          # satu item
-bash ~/create-chall-lab/cek-soal.sh <pack-slug>     # satu pack probset (ada pack.yml)
+bash ~/probset-skills/create-chall-lab/cek-soal.sh <slug>          # satu item
+bash ~/probset-skills/create-chall-lab/cek-soal.sh <pack-slug>     # satu pack probset (ada pack.yml)
 ```
 
 ## Repo layout

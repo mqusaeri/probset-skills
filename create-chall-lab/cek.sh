@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # cek.sh: cek kesiapan laptop buat Workshop Cyber Drill Builder
-# Jalanin dari folder repo:  bash cek.sh   (repo: https://github.com/mqusaeri/create-chall-lab)
-# Di venue, sekalian cek CTFd:  CTFD_URL=http://116.193.191.101 bash cek.sh
+# Jalanin:  bash ~/probset-skills/create-chall-lab/cek.sh   (repo: https://github.com/mqusaeri/probset-skills)
+# Di venue, sekalian cek CTFd:  CTFD_URL=http://<alamat-ctfd> bash cek.sh
 # Harness dideteksi otomatis. Kalau kepasang lebih dari satu:  HARNESS=claude bash cek.sh
 #   (pilihan: hermes, openclaw, claude, codex, opencode)
 
@@ -108,7 +108,7 @@ elif ! command -v "$HARNESS" >/dev/null 2>&1; then
 else
   pass "Harness: $HARNESS"
   if [ -f "$SKDIR/$SKILL/SKILL.md" ]; then pass "Skill $SKILL kepasang"
-  else sk="${SKDIR/#$HOME/~}"; gagal "Skill $SKILL belum kepasang" "mkdir -p $sk && cp -r ~/$SKILL $sk/"; fi
+  else sk="${SKDIR/#$HOME/~}"; gagal "Skill $SKILL belum kepasang" "mkdir -p $sk && cp -r ~/probset-skills/$SKILL $sk/"; fi
   if [ "$HARNESS" = "codex" ] && [ "$sys" != "Mac" ] && ! command -v bwrap >/dev/null 2>&1; then
     gagal "bubblewrap belum ada" "sudo apt install -y bubblewrap"
   fi

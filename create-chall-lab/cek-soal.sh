@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # cek-soal.sh v2: cek satu item latihan (atau satu pack) sebelum dikirim.
-#   bash ~/create-chall-lab/cek-soal.sh                 dari dalam folder item
-#   bash ~/create-chall-lab/cek-soal.sh ~/soal/<slug>   kasih path folder item
-#   bash ~/create-chall-lab/cek-soal.sh ~/soal/<pack>   folder pack (ada pack.yml), cek semua item
+#   bash ~/probset-skills/create-chall-lab/cek-soal.sh                 dari dalam folder item
+#   bash ~/probset-skills/create-chall-lab/cek-soal.sh ~/soal/<slug>   kasih path folder item
+#   bash ~/probset-skills/create-chall-lab/cek-soal.sh ~/soal/<pack>   folder pack (ada pack.yml), cek semua item
 # Format dibaca dari exercise.yml. Folder tanpa exercise.yml dianggap soal Jeopardy web v1.
 # Container selalu dimatiin lagi di akhir.
 

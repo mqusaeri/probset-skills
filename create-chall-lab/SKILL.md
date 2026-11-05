@@ -97,8 +97,8 @@ without `exercise.yml` is treated as a v1 Jeopardy web challenge. A pack folder 
 checks every item inside it.
 
 ```bash
-bash ~/create-chall-lab/cek-soal.sh <slug>
-bash ~/create-chall-lab/cek-soal.sh <pack-slug>    # probset pack
+bash <this skill's folder>/cek-soal.sh <slug>          # e.g. ~/.claude/skills/create-chall-lab
+bash <this skill's folder>/cek-soal.sh <pack-slug>     # probset pack
 ```
 
 ## Pitfalls
