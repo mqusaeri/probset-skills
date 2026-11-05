@@ -1,0 +1,20 @@
+[
+  {"t": "2026-11-05T09:10:11+07:00", "file": "web-01/access.log", "phase": "initial-access",
+   "line": "203.0.113.50 - - [05/Nov/2026:09:10:11 +0700] \"POST /login HTTP/1.1\" 401 112 \"-\" \"python-requests/2.31\"",
+   "note": "CONTOH: mulai password spray ke portal karyawan"},
+  {"t": "2026-11-05T09:10:13+07:00", "file": "web-01/access.log", "phase": "initial-access",
+   "line": "203.0.113.50 - - [05/Nov/2026:09:10:13 +0700] \"POST /login HTTP/1.1\" 401 112 \"-\" \"python-requests/2.31\"",
+   "note": "CONTOH: spray lanjut"},
+  {"t": "2026-11-05T09:12:40+07:00", "file": "web-01/access.log", "phase": "initial-access",
+   "line": "203.0.113.50 - - [05/Nov/2026:09:12:40 +0700] \"POST /login HTTP/1.1\" 302 0 \"-\" \"python-requests/2.31\"",
+   "note": "CONTOH: login berhasil"},
+  {"t": "2026-11-05T09:12:40+07:00", "file": "web-01/app.log", "phase": "initial-access",
+   "line": "2026-11-05 09:12:40,118 INFO auth login ok user=dewi.k ip=203.0.113.50",
+   "note": "CONTOH: akun yang kebobol"},
+  {"t": "2026-11-05T09:15:02+07:00", "file": "web-01/access.log", "phase": "execution",
+   "line": "203.0.113.50 - - [05/Nov/2026:09:15:02 +0700] \"POST /profil/foto HTTP/1.1\" 200 41 \"-\" \"python-requests/2.31\"",
+   "note": "CONTOH: upload file lewat fitur foto profil"},
+  {"t": "2026-11-05T09:15:30+07:00", "file": "web-01/access.log", "phase": "execution",
+   "line": "203.0.113.50 - - [05/Nov/2026:09:15:30 +0700] \"GET /uploads/foto_dewi.php?c=id HTTP/1.1\" 200 54 \"-\" \"python-requests/2.31\"",
+   "note": "CONTOH: webshell dipanggil"}
+]

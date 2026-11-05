@@ -1,0 +1,7 @@
+# Cuma buat tes lokal. Satu box. Port 8080 foothold, 9999 king reader.
+services:
+  box:
+    build: ./box
+    ports:
+      - "8080:8080"
+      - "9999:9999"

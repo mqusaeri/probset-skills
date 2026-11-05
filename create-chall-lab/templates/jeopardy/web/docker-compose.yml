@@ -1,0 +1,6 @@
+# Local testing only. One service. The facilitator remaps the public port on the VPS.
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"

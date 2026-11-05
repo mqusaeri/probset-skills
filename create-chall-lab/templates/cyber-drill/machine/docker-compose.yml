@@ -1,0 +1,6 @@
+# Cuma buat tes lokal. Satu mesin.
+services:
+  machine:
+    build: .
+    ports:
+      - "8080:8080"

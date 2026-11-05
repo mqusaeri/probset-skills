@@ -1,0 +1,9 @@
+Taruh perbaikan referensi di file ini, format unified diff. Bikin dari folder item:
+
+  cp -r service service.fixed       salin servis yang rentan
+  (perbaiki vuln di service.fixed)
+  diff -ruN service service.fixed > patch/fix.patch
+  rm -rf service.fixed
+
+cek-soal.sh nge-apply dari dalam service/ dengan  patch -p1 < ../patch/fix.patch
+lalu ngetes servis jadi aman dan checker tetap OK.

@@ -1,0 +1,15 @@
+[
+  {"file": "web-01/access.log", "count": 400,
+   "start": "2026-11-05T08:00:00+07:00", "end": "2026-11-05T11:00:00+07:00",
+   "time_format": "%d/%b/%Y:%H:%M:%S %z",
+   "template": "{ip} - - [{t}] \"GET {path} HTTP/1.1\" 200 {size} \"-\" \"Mozilla/5.0\"",
+   "values": {"ip": ["10.20.4.11", "10.20.4.12", "10.20.4.23", "10.20.5.7", "10.20.5.31"],
+              "path": ["/", "/beranda", "/cuti", "/slip-gaji", "/static/app.css", "/static/app.js"],
+              "size": ["512", "1840", "2210", "7302"]}},
+  {"file": "web-01/app.log", "count": 60,
+   "start": "2026-11-05T08:00:00+07:00", "end": "2026-11-05T11:00:00+07:00",
+   "time_format": "%Y-%m-%d %H:%M:%S,000",
+   "template": "{t} INFO auth login ok user={user} ip={ip}",
+   "values": {"user": ["andi.s", "budi.r", "citra.m", "eko.w"],
+              "ip": ["10.20.4.11", "10.20.4.12", "10.20.4.23", "10.20.5.7"]}}
+]

@@ -1,0 +1,290 @@
+{
+  "title": "GANTI_INI: Judul TTX",
+  "narrative": "PT Contoh Fiktif",
+  "custom_phases": false,
+  "phases": [
+    {
+      "id": "fase-0",
+      "name": "Context & Urgency Framing",
+      "minutes": 15,
+      "roles": [
+        "Crisis Commander",
+        "CISO",
+        "Business/Finance"
+      ],
+      "brief": "GANTI_INI: dua sampai empat paragraf situasi, dengan nama sistem, jam, dan orang fiktif.",
+      "prompt": "GANTI_INI: keputusan yang harus diambil role di fase ini.",
+      "options": [
+        {
+          "text": "GANTI_INI: pilihan terbaik.",
+          "level": 5
+        },
+        {
+          "text": "GANTI_INI: jalan tengah yang masih bisa dibela.",
+          "level": 3
+        },
+        {
+          "text": "GANTI_INI: kelihatan aman tapi salah.",
+          "level": 1
+        }
+      ],
+      "why_prompt": "Kenapa kalian pilih itu?",
+      "facilitator_notes": "GANTI_INI: apa yang dicari dari jawaban, follow-up question."
+    },
+    {
+      "id": "fase-1",
+      "name": "Exfiltration Alert Detected",
+      "minutes": 15,
+      "roles": [
+        "SOC/IR Lead",
+        "CISO",
+        "IT Infra & Ops"
+      ],
+      "brief": "GANTI_INI: dua sampai empat paragraf situasi, dengan nama sistem, jam, dan orang fiktif.",
+      "prompt": "GANTI_INI: keputusan yang harus diambil role di fase ini.",
+      "options": [
+        {
+          "text": "GANTI_INI: pilihan terbaik.",
+          "level": 5
+        },
+        {
+          "text": "GANTI_INI: jalan tengah yang masih bisa dibela.",
+          "level": 3
+        },
+        {
+          "text": "GANTI_INI: kelihatan aman tapi salah.",
+          "level": 1
+        }
+      ],
+      "why_prompt": "Kenapa kalian pilih itu?",
+      "facilitator_notes": "GANTI_INI: apa yang dicari dari jawaban, follow-up question."
+    },
+    {
+      "id": "fase-2",
+      "name": "Scope & Triage",
+      "minutes": 15,
+      "roles": [
+        "SOC/IR Lead",
+        "IT Infra & Ops",
+        "CISO"
+      ],
+      "brief": "GANTI_INI: dua sampai empat paragraf situasi, dengan nama sistem, jam, dan orang fiktif.",
+      "prompt": "GANTI_INI: keputusan yang harus diambil role di fase ini.",
+      "options": [
+        {
+          "text": "GANTI_INI: pilihan terbaik.",
+          "level": 5
+        },
+        {
+          "text": "GANTI_INI: jalan tengah yang masih bisa dibela.",
+          "level": 3
+        },
+        {
+          "text": "GANTI_INI: kelihatan aman tapi salah.",
+          "level": 1
+        }
+      ],
+      "why_prompt": "Kenapa kalian pilih itu?",
+      "facilitator_notes": "GANTI_INI: apa yang dicari dari jawaban, follow-up question."
+    },
+    {
+      "id": "fase-3",
+      "name": "Containment Dilemma",
+      "minutes": 15,
+      "roles": [
+        "Crisis Commander",
+        "CISO",
+        "IT Infra & Ops",
+        "Business/Finance"
+      ],
+      "brief": "GANTI_INI: dua sampai empat paragraf situasi, dengan nama sistem, jam, dan orang fiktif.",
+      "prompt": "GANTI_INI: keputusan yang harus diambil role di fase ini.",
+      "options": [
+        {
+          "text": "GANTI_INI: pilihan terbaik.",
+          "level": 5
+        },
+        {
+          "text": "GANTI_INI: jalan tengah yang masih bisa dibela.",
+          "level": 3
+        },
+        {
+          "text": "GANTI_INI: kelihatan aman tapi salah.",
+          "level": 1
+        }
+      ],
+      "why_prompt": "Kenapa kalian pilih itu?",
+      "facilitator_notes": "GANTI_INI: apa yang dicari dari jawaban, follow-up question."
+    },
+    {
+      "id": "fase-4",
+      "name": "Encryption Detonates + Ransom Note",
+      "minutes": 15,
+      "roles": [
+        "Crisis Commander",
+        "CISO",
+        "SOC/IR Lead",
+        "IT Infra & Ops"
+      ],
+      "brief": "GANTI_INI: dua sampai empat paragraf situasi, dengan nama sistem, jam, dan orang fiktif.",
+      "prompt": "GANTI_INI: keputusan yang harus diambil role di fase ini.",
+      "options": [
+        {
+          "text": "GANTI_INI: pilihan terbaik.",
+          "level": 5
+        },
+        {
+          "text": "GANTI_INI: jalan tengah yang masih bisa dibela.",
+          "level": 3
+        },
+        {
+          "text": "GANTI_INI: kelihatan aman tapi salah.",
+          "level": 1
+        }
+      ],
+      "why_prompt": "Kenapa kalian pilih itu?",
+      "facilitator_notes": "GANTI_INI: apa yang dicari dari jawaban, follow-up question."
+    },
+    {
+      "id": "fase-5",
+      "name": "Regulator Clock",
+      "minutes": 15,
+      "roles": [
+        "Legal & Compliance",
+        "CISO",
+        "Crisis Commander"
+      ],
+      "brief": "GANTI_INI: dua sampai empat paragraf situasi, dengan nama sistem, jam, dan orang fiktif.",
+      "prompt": "GANTI_INI: keputusan yang harus diambil role di fase ini.",
+      "options": [
+        {
+          "text": "GANTI_INI: pilihan terbaik.",
+          "level": 5
+        },
+        {
+          "text": "GANTI_INI: jalan tengah yang masih bisa dibela.",
+          "level": 3
+        },
+        {
+          "text": "GANTI_INI: kelihatan aman tapi salah.",
+          "level": 1
+        }
+      ],
+      "why_prompt": "Kenapa kalian pilih itu?",
+      "facilitator_notes": "GANTI_INI: apa yang dicari dari jawaban, follow-up question."
+    },
+    {
+      "id": "fase-6",
+      "name": "To Pay or Not To Pay",
+      "minutes": 15,
+      "roles": [
+        "Crisis Commander",
+        "Legal & Compliance",
+        "Business/Finance",
+        "CISO"
+      ],
+      "brief": "GANTI_INI: dua sampai empat paragraf situasi, dengan nama sistem, jam, dan orang fiktif.",
+      "prompt": "GANTI_INI: keputusan yang harus diambil role di fase ini.",
+      "options": [
+        {
+          "text": "GANTI_INI: pilihan terbaik.",
+          "level": 5
+        },
+        {
+          "text": "GANTI_INI: jalan tengah yang masih bisa dibela.",
+          "level": 3
+        },
+        {
+          "text": "GANTI_INI: kelihatan aman tapi salah.",
+          "level": 1
+        }
+      ],
+      "why_prompt": "Kenapa kalian pilih itu?",
+      "facilitator_notes": "GANTI_INI: apa yang dicari dari jawaban, follow-up question."
+    },
+    {
+      "id": "fase-7",
+      "name": "Public Disclosure & Comms",
+      "minutes": 15,
+      "roles": [
+        "Corporate Comms",
+        "Legal & Compliance",
+        "Crisis Commander"
+      ],
+      "brief": "GANTI_INI: dua sampai empat paragraf situasi, dengan nama sistem, jam, dan orang fiktif.",
+      "prompt": "GANTI_INI: keputusan yang harus diambil role di fase ini.",
+      "options": [
+        {
+          "text": "GANTI_INI: pilihan terbaik.",
+          "level": 5
+        },
+        {
+          "text": "GANTI_INI: jalan tengah yang masih bisa dibela.",
+          "level": 3
+        },
+        {
+          "text": "GANTI_INI: kelihatan aman tapi salah.",
+          "level": 1
+        }
+      ],
+      "why_prompt": "Kenapa kalian pilih itu?",
+      "facilitator_notes": "GANTI_INI: apa yang dicari dari jawaban, follow-up question."
+    },
+    {
+      "id": "fase-8",
+      "name": "Recovery & Business Continuity",
+      "minutes": 15,
+      "roles": [
+        "IT Infra & Ops",
+        "Business/Finance",
+        "SOC/IR Lead"
+      ],
+      "brief": "GANTI_INI: dua sampai empat paragraf situasi, dengan nama sistem, jam, dan orang fiktif.",
+      "prompt": "GANTI_INI: keputusan yang harus diambil role di fase ini.",
+      "options": [
+        {
+          "text": "GANTI_INI: pilihan terbaik.",
+          "level": 5
+        },
+        {
+          "text": "GANTI_INI: jalan tengah yang masih bisa dibela.",
+          "level": 3
+        },
+        {
+          "text": "GANTI_INI: kelihatan aman tapi salah.",
+          "level": 1
+        }
+      ],
+      "why_prompt": "Kenapa kalian pilih itu?",
+      "facilitator_notes": "GANTI_INI: apa yang dicari dari jawaban, follow-up question."
+    },
+    {
+      "id": "fase-9",
+      "name": "Board & Regulator Debrief",
+      "minutes": 15,
+      "roles": [
+        "Crisis Commander",
+        "CISO",
+        "Legal & Compliance"
+      ],
+      "brief": "GANTI_INI: dua sampai empat paragraf situasi, dengan nama sistem, jam, dan orang fiktif.",
+      "prompt": "GANTI_INI: keputusan yang harus diambil role di fase ini.",
+      "options": [
+        {
+          "text": "GANTI_INI: pilihan terbaik.",
+          "level": 5
+        },
+        {
+          "text": "GANTI_INI: jalan tengah yang masih bisa dibela.",
+          "level": 3
+        },
+        {
+          "text": "GANTI_INI: kelihatan aman tapi salah.",
+          "level": 1
+        }
+      ],
+      "why_prompt": "Kenapa kalian pilih itu?",
+      "facilitator_notes": "GANTI_INI: apa yang dicari dari jawaban, follow-up question."
+    }
+  ]
+}

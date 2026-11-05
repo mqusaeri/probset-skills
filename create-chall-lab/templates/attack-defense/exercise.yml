@@ -1,0 +1,13 @@
+# Satu item latihan. cek-soal.sh baca file ini buat milih cek yang dijalanin.
+format: attack-defense
+category: 
+delivery: 
+variant: 
+mode: workshop          # workshop | probset
+difficulty: easy        # easy | medium | hard (hard cuma probset)
+points: 100             # workshop: easy 100, medium 200. probset: lihat references/core-rules.md
+flag_prefix: flag       # probset boleh pakai format klien, contoh FLAG
+port: 8080
+author: Nama Tim
+narrative: PT Contoh Fiktif
+source: ide sendiri

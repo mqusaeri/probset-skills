@@ -1,0 +1,11 @@
+name: "Judul Soal"
+author: "Nama Tim"
+category: web
+description: "Satu atau dua kalimat cerita app fiktif. Jangan kasih tahu cara solve."
+value: 100
+type: standard
+flags:
+  - "flag{ganti_dengan_isi_flag_txt}"
+connection_info: "http://[IP VPS]:[port]"
+state: visible
+version: "0.1"

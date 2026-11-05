@@ -1,0 +1,6 @@
+# Cuma buat tes lokal. Satu service. Fasilitator yang atur port publik di server.
+services:
+  chall:
+    build: .
+    ports:
+      - "1337:1337"

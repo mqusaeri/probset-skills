@@ -1,0 +1,14 @@
+[
+  {"id": "q1", "phase": "Deteksi", "points": 100,
+   "question": "Dari IP mana percobaan login berulang ke portal karyawan?",
+   "answer": "203.0.113.50", "accept": [],
+   "evidence": {"file": "web-01/access.log", "contains": "203.0.113.50 - - [05/Nov/2026:09:10:11"}},
+  {"id": "q2", "phase": "Analisis", "points": 100,
+   "question": "Akun karyawan mana yang berhasil dipakai penyerang?",
+   "answer": "dewi.k", "accept": [],
+   "evidence": {"file": "web-01/app.log", "contains": "user=dewi.k ip=203.0.113.50"}},
+  {"id": "q3", "phase": "Kontainmen", "points": 100,
+   "question": "File apa di folder uploads yang harus segera dihapus?",
+   "answer": "foto_dewi.php", "accept": ["/uploads/foto_dewi.php"],
+   "evidence": {"file": "web-01/access.log", "contains": "/uploads/foto_dewi.php"}}
+]

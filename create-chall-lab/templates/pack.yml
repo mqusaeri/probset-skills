@@ -1,0 +1,8 @@
+# Satu pack probset: banyak item di bawah satu cerita. Tiap item punya folder dan exercise.yml sendiri.
+name: Nama Pack
+narrative: PT Contoh Fiktif
+mode: probset
+flag_prefix: FLAG
+platform: ctfd          # ctfd | forcad | cyberxatria | lainnya
+release: single-day     # single-day | wave (tulis jadwalnya di release-plan.md)
+author: Nama Probset

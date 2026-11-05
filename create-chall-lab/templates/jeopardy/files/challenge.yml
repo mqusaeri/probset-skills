@@ -1,0 +1,12 @@
+name: "Judul Soal"
+author: "Nama Tim"
+category: crypto
+description: "Satu atau dua kalimat cerita fiktif. Jangan kasih tahu cara solve."
+value: 100
+type: standard
+flags:
+  - "flag{ganti_dengan_isi_flag_txt}"
+files:
+  - dist/output.txt
+state: visible
+version: "0.1"

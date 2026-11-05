@@ -1,0 +1,8 @@
+# Blok task buat config.yml ForcAD. Salin folder checker/ ke checkers/<name>/ di server ForcAD.
+- name: catatan-fiktif
+  checker: catatan-fiktif/checker.py
+  checker_type: hackerdom
+  checker_timeout: 10
+  puts: 1
+  gets: 1
+  places: 1        # jumlah vuln. VULN dipilih acak di [1, places]
